@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "FlickrUp", "FlickrUp\FlickrUp.vbproj", "{D0A09B5E-3A0D-4D65-A839-EE7ECFF94842}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 2
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://apshai.grainger.uiuc.edu:8080/tfs/sdg
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = FlickrUp\\FlickrUp.vbproj
+		SccProjectName1 = FlickrUp
+		SccLocalPath1 = FlickrUp
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D0A09B5E-3A0D-4D65-A839-EE7ECFF94842}.Debug|x86.ActiveCfg = Debug|x86
+		{D0A09B5E-3A0D-4D65-A839-EE7ECFF94842}.Debug|x86.Build.0 = Debug|x86
+		{D0A09B5E-3A0D-4D65-A839-EE7ECFF94842}.Release|x86.ActiveCfg = Release|x86
+		{D0A09B5E-3A0D-4D65-A839-EE7ECFF94842}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

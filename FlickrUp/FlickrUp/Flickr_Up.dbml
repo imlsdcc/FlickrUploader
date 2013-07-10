@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="IMLSHarvest_B" Class="Flickr_UpDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=LIBGRTOBADZIST;Initial Catalog=IMLSHarvest_B;Integrated Security=True" SettingsObjectName="FlickrUp.My.MySettings" SettingsPropertyName="IMLSHarvest_BConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Flickr" Member="Flickrs">
+    <Type Name="Flickr">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="identifier" Type="System.String" DbType="NVarChar(250) NOT NULL" CanBeNull="false" />
+      <Column Name="photoID" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="dateUpload" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="oai_datestamp" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="title" Type="System.String" DbType="NVarChar(512)" CanBeNull="true" />
+      <Column Name="creator" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="description" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="date_taken" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="license" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="tags" Type="System.String" DbType="NVarChar(512)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>
